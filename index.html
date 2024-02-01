@@ -6,14 +6,16 @@
     <title>HedgeFunCoin</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Comic Sans MS', 'Chalkboard SE', 'Arial', sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f0f4c3; /* Light green background */
+            background-image: url('<a href="https://ibb.co/2c8Z3y4"><img src="https://i.ibb.co/RQhjT9w/DALL-E-2024-02-01-13-54-20-Create-a-cartoon-style-background-image-depicting-Wall-Street-with-a-whim.png" alt="DALL-E-2024-02-01-13-54-20-Create-a-cartoon-style-background-image-depicting-Wall-Street-with-a-whim" border="0"></a>'); /* Add your background image URL here */
+            background-size: cover;
             color: #333;
-            background-color: #f4f4f4;
         }
         .header {
-            background-color: #007bff;
+            background-color: rgba(0, 123, 255, 0.8);
             color: white;
             text-align: center;
             padding: 1em 0;
@@ -21,46 +23,42 @@
             justify-content: space-between;
             align-items: center;
             padding: 0 10%;
-        }
-        .socials {
-            display: flex;
-            justify-content: start;
-        }
-        .socials a {
-            margin-right: 15px;
-            color: white;
-            text-decoration: none;
-        }
-        .main-buttons {
-            display: flex;
-            justify-content: end;
-        }
-        .main-buttons a {
-            margin-left: 15px;
-            color: white;
-            text-decoration: none;
-            border: 1px solid white;
-            padding: 5px 10px;
-            border-radius: 5px;
-            transition: background-color 0.3s, color 0.3s;
-        }
-        .main-buttons a:hover {
-            background-color: white;
-            color: #007bff;
+            font-size: 20px;
         }
         .hero-section {
-            background-color: #eee;
+            background-color: rgba(255, 255, 255, 0.8);
             text-align: center;
             padding: 50px 20px;
+            background-image: url('<a href="https://ibb.co/7ymt0y0"><img src="https://i.ibb.co/ZTDzbTb/DALL-E-2024-02-01-12-43-49-A-cartoon-hedgehog-dressed-in-a-business-suit-wearing-sunglasses-holding.png" alt="DALL-E-2024-02-01-12-43-49-A-cartoon-hedgehog-dressed-in-a-business-suit-wearing-sunglasses-holding" border="0"></a>'); /* Hedgehog mascot image */
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+        .hero-section h1, .hero-section p {
+            background: rgba(255, 255, 255, 0.6);
+            display: inline-block;
+            padding: 5px 20px;
+            border-radius: 10px;
         }
         .footer {
-            background-color: #007bff;
+            background-color: rgba(0, 123, 255, 0.8);
             color: white;
             text-align: center;
             padding: 1em 0;
+            font-size: 18px;
         }
-        .footer p {
-            margin: 0;
+        a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #adc;
+        }
+        .socials a, .main-buttons a {
+            border: 2px solid white;
+            padding: 5px 10px;
+            border-radius: 5px;
         }
     </style>
 </head>
@@ -78,10 +76,8 @@
     </header>
 
     <div class="hero-section">
-        <h1>Welcome to HedgeFunCoin</h1>
-        <p>A unique cryptocurrency experience with playful yet impactful investment opportunities.</p>
-        <h2>Tokenomics</h2>
-        <p>Here's where you can include information about the tokenomics of HedgeFunCoin...</p>
+        <h1>Welcome to HedgeFunCoin!</h1>
+        <p>A token giving the wall street bullies a run for their money. Hedge funs will beat hedge funds.</p>
     </div>
 
     <footer class="footer">
